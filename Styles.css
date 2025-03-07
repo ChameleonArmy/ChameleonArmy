@@ -1,63 +1,49 @@
-/* Общие стили */
 body {
     font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #121212;
-    color: #fff;
-    text-align: center;
 }
 
-/* Контейнер */
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Логотип */
 .logo {
-    width: 120px;
-    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
 }
 
-/* Заголовки */
-h1 {
-    font-size: 32px;
-    margin: 10px 0;
+h1, h2 {
+    color: #00ff7f;
 }
 
-h2 {
-    font-size: 26px;
-    margin-top: 20px;
-}
-
-/* Кнопки */
-.btn {
-    display: inline-block;
-    background: #32CD32;
-    color: #fff;
-    padding: 15px 25px;
+a {
+    color: #00c3ff;
     text-decoration: none;
-    border-radius: 8px;
-    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #00ff7f;
+    color: black;
     font-weight: bold;
-    margin: 15px;
-    transition: 0.3s;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
-.btn:hover {
-    background: #228B22;
-}
-
-/* Секции */
-section {
-    padding: 50px 0;
-}
-
-/* Подвал */
-footer {
-    background: #222;
-    padding: 25px;
-    font-size: 14px;
+.button:hover {
+    background-color: #00c3ff;
+    color: white;
 }
